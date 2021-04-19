@@ -1,10 +1,13 @@
-import React from 'react';
+import Layout from '../../components/Layout';
 
 const EventPage = () => {
+  const router = useRouter();
+
+  console.log(router);
   return (
-    <div>
-      <h1>my event</h1>
-    </div>
+    <Layout>
+      <h1>my events</h1>
+    </Layout>
   );
 };
 
