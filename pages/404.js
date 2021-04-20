@@ -9,7 +9,7 @@ const NotFoundPage = () => {
       <div className={styles.error}>
         <FaExclamationTriangle size={60} style={{ color: 'crimson' }} />
         <h1>404</h1>
-        <h4>Sorry Page Not Found]</h4>
+        <h4>Sorry Page Not Found</h4>
         <Link href='/'>Home</Link>
       </div>
     </Layout>
